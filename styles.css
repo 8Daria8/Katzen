@@ -1,0 +1,298 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url(img/pfoten.jpg);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 20px 0;
+  height: 130px;
+  background-color: rgb(182, 199, 224);
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.katzebild {
+  width: 320px;
+  height: 350px;
+  text-shadow: 3px 1px 3px rgba(142, 159, 190, 0.97);
+}
+
+.demo {
+  display: flex;
+}
+
+.logokatze {
+  width: 100px;
+  height: 100px;
+}
+
+#demo {
+  -webkit-box-shadow: 0px 10px 13px -7px #000000,
+    -2px 3px 44px -8px rgba(0, 0, 0, 0.34);
+  box-shadow: 0px 10px 13px -7px #000000, -2px 3px 44px -8px rgba(0, 0, 0, 0.34);
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover {
+  color: #5e5f5f;
+}
+
+nav ul li {
+  font-family: "Baskervville SC", serif;
+  font-weight: 600;
+  font-style: normal;
+  text-decoration: none;
+  margin: 30px;
+}
+
+nav ul li .aktiv {
+  color: black;
+  text-decoration: none;
+}
+
+nav ul li .aktiv:hover {
+  color: #5e5f5f;
+}
+
+h2 {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.text {
+  font-family: "Baskervville SC", serif;
+  margin: 40px 0;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+  text-shadow: 3px 1px 3px rgba(142, 159, 190, 0.97);
+}
+
+.beschreibung {
+  font-family: "Baskervville SC", serif;
+  text-align: center;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 25px;
+  font-weight: 400;
+  text-shadow: 3px 1px 3px rgba(142, 159, 190, 0.97);
+}
+/*über uns*/
+.zeit {
+  font-family: "Baskervville SC", serif;
+  text-align: center;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 25px;
+  font-weight: 400;
+  text-shadow: 3px 1px 3px rgba(142, 159, 190, 0.97);
+}
+
+.zeitlist {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.impressun {
+  font-family: "Baskervville SC", serif;
+  text-align: center;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 25px;
+  font-weight: 400;
+  text-shadow: 3px 1px 3px rgba(142, 159, 190, 0.97);
+}
+
+.impressunlist {
+  text-decoration: none;
+  list-style-type: none;
+}
+/*über uns endet*/
+
+.chefs {
+  text-align: center;
+  padding-top: 30px;
+  margin: 50px 0;
+  font-size: 50px;
+  font-weight: 600;
+  text-shadow: 3px 1px 3px rgba(142, 159, 190, 0.97);
+}
+
+.foto-chef {
+  display: flex;
+  justify-content: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.foto-chef .img {
+  margin: 15px;
+  width: 400px;
+  height: 400px;
+  box-shadow: 0px 2px 5px 0px #000000;
+}
+
+.blue {
+  height: 50px;
+  background-color: rgb(182, 199, 224);
+}
+.personal {
+  display: flex;
+  justify-content: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.personal .kätzchen {
+  display: flex;
+  width: 500px;
+  height: 500px;
+  margin: 15px;
+  box-shadow: 0px 2px 5px 0px #000000;
+}
+
+.personal-katze {
+  text-align: center;
+  margin: 40px 0;
+  font-size: 50px;
+  font-weight: 600;
+  text-shadow: 3px 1px 3px rgba(142, 159, 190, 0.97);
+}
+
+.kätzchen {
+  display: flex;
+}
+
+footer {
+  font-family: "Baskervville SC", serif;
+  background-color: rgb(182, 199, 224);
+  height: 130px;
+  margin-top: 50px;
+  margin-bottom: 0;
+  padding: 0;
+}
+footer p {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  padding: 30px;
+}
+
+footer .daten {
+  text-align: center;
+  font-style: normal;
+  padding-top: 20px;
+}
+
+footer .daten p {
+  font-family: "Baskervville SC", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 30px;
+}
+
+/*kontakt*/
+
+.feedback {
+  padding: 70px 0;
+}
+
+.feedback h2 {
+  font-family: "Baskervville SC", serif;
+  font-style: normal;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+  text-shadow: 3px 1px 3px rgba(142, 159, 190, 0.97);
+}
+
+.feedback form {
+  margin: 80px auto;
+  width: 600px;
+}
+
+.feedback form .inline {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feedback form .inline > div {
+  width: 50%;
+}
+
+.feedback form label {
+  font-family: "Baskervville SC", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.feedback form input,
+.feedback form textarea {
+  border-radius: 10px;
+  border: 0.6px solid #cecece;
+  display: block;
+  width: 90%;
+  padding: 15px 10px;
+  outline: none;
+  margin-top: 7px;
+  margin-bottom: 20px;
+}
+
+.feedback form .one-line {
+  width: 96%;
+}
+
+.feedback form textarea {
+  resize: none;
+  height: 200px;
+}
+
+.feedback form button {
+  font-family: "Baskervville SC", serif;
+  font-weight: 600;
+  font-style: normal;
+  background: rgb(182, 199, 224);
+  border-radius: 5px;
+  border: 0;
+  float: left;
+  cursor: pointer;
+  color: black;
+  padding: 15px 10px;
+  transition: all 500ms ease;
+}
+
+.feedback form button:hover {
+  background: rgb(114, 146, 199);
+}
+
+.blockbilduntern {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
